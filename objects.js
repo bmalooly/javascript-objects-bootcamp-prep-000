@@ -1,7 +1,8 @@
-var playlist = { 
-  'Ariana Grande': "thank u, next", 
-  'The 1975': "Love It If We Made It", 
-  'Tame Impala': "Love/Paranoia" }
+var playlist =  {
+  'Slowdive': 'Alison', 
+  'My Bloody Valentine': 'Sometimes', 
+  'Phil Ochs': "Here's to the State of Mississippi 
+}
 function updatePlaylist(playlist, artistName, songTitle) {
   return Object.assign({}, playlist, { [artistName]: songTitle })
 }
